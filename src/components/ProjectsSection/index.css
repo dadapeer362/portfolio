@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.my-work-heading {
+  font-family: 'Roboto';
+  color: #000000;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.project-image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-img-style {
+  width: 150px;
+  height: 150px;
+  margin: 40px;
+  border-radius: 20px;
+}
+
+.project-name {
+  font-weight: 500;
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+}

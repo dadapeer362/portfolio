@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.list-items {
+  list-style: none;
+  color: #000000;
+}
+
+.about-heading {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-left: 40px;
+}
+
+.about-paragraph {
+  color: #000000;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-left: 40px;
+}
+
+.education-list {
+  list-style: none;
+}
+
+.education-main-heading {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'roboto';
+}
+
+.icon-img-heading {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.list-icon-img {
+  width: 15px;
+  height: 15px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.education-skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.education-heading {
+  color: #000000;
+  font-size: 15px;
+  font-family: 'roboto';
+}
+
+.education-paragraph {
+  color: #475569;
+  font-size: 15px;
+  font-family: 'roboto';
+  margin-left: 25px;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 180px;
+  margin-right: 30px;
+}
+
+.skills-list-container {
+  list-style: none;
+  border-radius: 40px;
+  background-color: #ffffff;
+  color: #ec4899;
+  font-weight: bold;
+  padding: 8px;
+  margin-right: 10px;
+}

@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.social-media-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.social-media-img-style {
+  width: 80px;
+  height: 80px;
+}

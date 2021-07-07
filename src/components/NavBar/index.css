@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.list-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.name-style {
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #000000;
+}
+
+.icon-style {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  margin-top: 8px;
+}

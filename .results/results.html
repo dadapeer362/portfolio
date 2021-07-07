@@ -1,0 +1,440 @@
+<html lang="en"><head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>jest-stare!</title>
+            <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+	        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/522ee478c4.js" crossorigin="anonymous"></script>
+            <script src="js/view.js"></script>
+        </head><body><div id="test-results" style=" display: flex; flex-direction: column; width: 80%; padding: 25px 0px; margin: auto; font-family: roboto;  margin-top:60px;">{
+  &quot;numFailedTestSuites&quot;: 1,
+  &quot;numFailedTests&quot;: 3,
+  &quot;numPassedTestSuites&quot;: 0,
+  &quot;numPassedTests&quot;: 20,
+  &quot;numPendingTestSuites&quot;: 0,
+  &quot;numPendingTests&quot;: 0,
+  &quot;numRuntimeErrorTestSuites&quot;: 0,
+  &quot;numTodoTests&quot;: 0,
+  &quot;numTotalTestSuites&quot;: 1,
+  &quot;numTotalTests&quot;: 23,
+  &quot;openHandles&quot;: [],
+  &quot;snapshot&quot;: {
+    &quot;added&quot;: 0,
+    &quot;didUpdate&quot;: false,
+    &quot;failure&quot;: false,
+    &quot;filesAdded&quot;: 0,
+    &quot;filesRemoved&quot;: 0,
+    &quot;filesRemovedList&quot;: [],
+    &quot;filesUnmatched&quot;: 0,
+    &quot;filesUpdated&quot;: 0,
+    &quot;matched&quot;: 0,
+    &quot;total&quot;: 0,
+    &quot;unchecked&quot;: 0,
+    &quot;uncheckedKeysByFile&quot;: [],
+    &quot;unmatched&quot;: 0,
+    &quot;updated&quot;: 0
+  },
+  &quot;startTime&quot;: 1623857344480,
+  &quot;success&quot;: false,
+  &quot;testResults&quot;: [
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 3,
+      &quot;numPassingTests&quot;: 20,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1623857357693,
+        &quot;runtime&quot;: 12044,
+        &quot;slow&quot;: true,
+        &quot;start&quot;: 1623857345649
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;uncheckedKeys&quot;: [],
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0
+      },
+      &quot;testFilePath&quot;: &quot;/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/src/__tests__/GlassPortfolioDesign.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 612,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;matcherResult&quot;: {
+                &quot;pass&quot;: true
+              }
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(jest.fn()).not.toHaveBeenCalled()\n\nExpected number of calls: 0\nReceived number of calls: 1\n\n1: \&quot;Warning: Each child in a list should have a unique \\\&quot;key\\\&quot; prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s\&quot;, \&quot;·\nCheck the render method of `SocialMediaSection`.\&quot;, \&quot;\&quot;, \&quot;\n    at a\n    at SocialMediaSection (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/src/components/SocialMediaSection/index.js:39:44)\n    at div\n    at div\n    at div\n    at Portfolio (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/src/components/Portfolio/index.js:35:35)\n    at App\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/src/__tests__/GlassPortfolioDesign.js:97:31)\n    at Promise.then.completed (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (&lt;anonymous&gt;)\n    at callAsyncCircusFn (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusHook (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:175:40)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at _runTest (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:152:5)\n    at _runTestsForDescribeBlock (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Portfolio testsNavBar Component should consist of HTML image element&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;NavBar Component should consist of HTML image element&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_1&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 33,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsNavBar Component should consist of the four HTML paragraph elements with the text content as the value of the key name in the list of objects in navBarItems&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;NavBar Component should consist of the four HTML paragraph elements with the text content as the value of the key name in the list of objects in navBarItems&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_2&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 42,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsNavBar Component should consist of HTML unordered list element&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;NavBar Component should consist of HTML unordered list element&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_3&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 58,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsNavBar Component should consist of four list item elements&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;NavBar Component should consist of four list item elements&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_4&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 360,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsNavBar Component should consist of HTML image elements with src attribute values as the value of the key iconUrl in the list of objects of objects in navBarItems&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;NavBar Component should consist of HTML image elements with src attribute values as the value of the key iconUrl in the list of objects of objects in navBarItems&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_5&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 40,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsHomeSection component should consist of HTML main heading element&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;HomeSection component should consist of HTML main heading element&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_6&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 18,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsHomeSection component should consist of HTML paragraph element with text content Full Stack Developer&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;HomeSection component should consist of HTML paragraph element with text content Full Stack Developer&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_7&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 20,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsHomeSection component should consist of HTML paragraph element with text content starting with Experienced in&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;HomeSection component should consist of HTML paragraph element with text content starting with Experienced in&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_8&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 53,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsHomeSection component should consist of HTML button element with text content View Resume&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;HomeSection component should consist of HTML button element with text content View Resume&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_9&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 175,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;matcherResult&quot;: {
+                &quot;pass&quot;: true
+              }
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(jest.fn()).not.toHaveBeenCalled()\n\nExpected number of calls: 0\nReceived number of calls: 1\n\n1: \&quot;Warning: Each child in a list should have a unique \\\&quot;key\\\&quot; prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s\&quot;, \&quot;·\nCheck the render method of `AboutSection`.\&quot;, \&quot;\&quot;, \&quot;\n    at li\n    at AboutSection (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/src/components/AboutSection/index.js:60:38)\n    at div\n    at div\n    at div\n    at Portfolio (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/src/components/Portfolio/index.js:35:35)\n    at App\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/src/__tests__/GlassPortfolioDesign.js:97:31)\n    at Promise.then.completed (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (&lt;anonymous&gt;)\n    at callAsyncCircusFn (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusHook (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:175:40)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at _runTest (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:152:5)\n    at _runTestsForDescribeBlock (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Portfolio testsAboutSection Component should consist of HTML main heading element with text content About&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;AboutSection Component should consist of HTML main heading element with text content About&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_10&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 36,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsAboutSection Component should consist of HTML paragraph element with text content starting with I started my journey in the world of computers from a young age&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;AboutSection Component should consist of HTML paragraph element with text content starting with I started my journey in the world of computers from a young age&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_11&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 158,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsAboutSection Component should consist of HTML main heading element with text content Education&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;AboutSection Component should consist of HTML main heading element with text content Education&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_12&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 185,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsAboutSection Component should consist of HTML main heading element with text content Skills&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;AboutSection Component should consist of HTML main heading element with text content Skills&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_13&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 49,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsAboutSection Component should consist of education details unordered list and skills unordered list&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;AboutSection Component should consist of education details unordered list and skills unordered list&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_14&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 101,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;matcherResult&quot;: {
+                &quot;pass&quot;: true
+              }
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(jest.fn()).not.toHaveBeenCalled()\n\nExpected number of calls: 0\nReceived number of calls: 1\n\n1: \&quot;Warning: Each child in a list should have a unique \\\&quot;key\\\&quot; prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s\&quot;, \&quot;·\nCheck the render method of `ProjectsSection`.\&quot;, \&quot;\&quot;, \&quot;\n    at div\n    at ProjectsSection (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/src/components/ProjectsSection/index.js:31:41)\n    at div\n    at div\n    at div\n    at Portfolio (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/src/components/Portfolio/index.js:35:35)\n    at App\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/src/__tests__/GlassPortfolioDesign.js:97:31)\n    at Promise.then.completed (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (&lt;anonymous&gt;)\n    at callAsyncCircusFn (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusHook (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:175:40)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at _runTest (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:152:5)\n    at _runTestsForDescribeBlock (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/home/workspace/.tmp/4044b4b5-a789-48ba-9a2b-3b9cd8ba350f/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Portfolio testsProjectsSection Component should consist of HTML main heading element with text content My Work&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;ProjectsSection Component should consist of HTML main heading element with text content My Work&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_15&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 466,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsProjectsSection Component should consist of four HTML image elements with src attribute values as the values of the key imgUrl in projectsData&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;ProjectsSection Component should consist of four HTML image elements with src attribute values as the values of the key imgUrl in projectsData&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_16&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 56,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsContactSection Component should consist of HTML main heading element with text content My Contact&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;ContactSection Component should consist of HTML main heading element with text content My Contact&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_17&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 130,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsContactSection Component should consist of HTML image element with src attribute value as location image URL&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;ContactSection Component should consist of HTML image element with src attribute value as location image URL&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_18&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 366,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsSocialMediaSection Component should consist of HTML image elements with src attribute value as the value of the key imageUrl in the list of objects in socialMediaAppsData&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;SocialMediaSection Component should consist of HTML image elements with src attribute value as the value of the key imageUrl in the list of objects in socialMediaAppsData&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_19&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 75,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsWhen the Portfolio is opened by default HomeSection should be shown&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the Portfolio is opened by default HomeSection should be shown&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_20&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 140,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsWhen the About option in the Navbar is clicked the AboutSection should be displayed&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the About option in the Navbar is clicked the AboutSection should be displayed&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_21&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 469,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsWhen the Projects option in the Navbar is clicked the ProjectsSection should be displayed&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the Projects option in the Navbar is clicked the ProjectsSection should be displayed&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_22&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Portfolio tests&quot;
+          ],
+          &quot;duration&quot;: 62,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Portfolio testsWhen the Contact option in the Navbar is clicked the ContactSection should be displayed&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the Contact option in the Navbar is clicked the ContactSection should be displayed&quot;,
+          &quot;id&quot;: &quot;RJSCPJV9VO_TEST_23&quot;
+        }
+      ],
+      &quot;failureMessage&quot;: &quot;  ● :::RJSCPJV9VO_TEST_SUITE_1:::Portfolio tests › :::RJSCPJV9VO_TEST_1:::NavBar Component should consist of HTML image element:::5:::\n\n    expect(jest.fn()).not.toHaveBeenCalled()\n\n    Expected number of calls: 0\n    Received number of calls: 1\n\n    1: \&quot;Warning: Each child in a list should have a unique \\\&quot;key\\\&quot; prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s\&quot;, \&quot;·\n    Check the render method of `SocialMediaSection`.\&quot;, \&quot;\&quot;, \&quot;\n        at a\n\n      37 | // Write your code here\n      38 |\n    &gt; 39 | class SocialMediaSection extends Component {\n         |                                            ^\n      40 |   stateValue = {dummy: 3}\n      41 |\n      42 |   getSocialMediaImages() {\n\n      at SocialMediaSection (src/components/SocialMediaSection/index.js:39:44)\n          at div\n          at div\n          at div\n      at Portfolio (src/components/Portfolio/index.js:35:35)\n          at App\&quot;\n      at Object.&lt;anonymous&gt; (src/__tests__/GlassPortfolioDesign.js:97:31)\n\n  ● :::RJSCPJV9VO_TEST_SUITE_1:::Portfolio tests › :::RJSCPJV9VO_TEST_10:::AboutSection Component should consist of HTML main heading element with text content About:::5:::\n\n    expect(jest.fn()).not.toHaveBeenCalled()\n\n    Expected number of calls: 0\n    Received number of calls: 1\n\n    1: \&quot;Warning: Each child in a list should have a unique \\\&quot;key\\\&quot; prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s\&quot;, \&quot;·\n    Check the render method of `AboutSection`.\&quot;, \&quot;\&quot;, \&quot;\n        at li\n\n      58 | // Write your code here\n      59 |\n    &gt; 60 | class AboutSection extends Component {\n         |                                      ^\n      61 |   stateValue = {dummyValue: 1}\n      62 |\n      63 |   onGetEducationListItems() {\n\n      at AboutSection (src/components/AboutSection/index.js:60:38)\n          at div\n          at div\n          at div\n      at Portfolio (src/components/Portfolio/index.js:35:35)\n          at App\&quot;\n      at Object.&lt;anonymous&gt; (src/__tests__/GlassPortfolioDesign.js:97:31)\n\n  ● :::RJSCPJV9VO_TEST_SUITE_1:::Portfolio tests › :::RJSCPJV9VO_TEST_15:::ProjectsSection Component should consist of HTML main heading element with text content My Work:::5:::\n\n    expect(jest.fn()).not.toHaveBeenCalled()\n\n    Expected number of calls: 0\n    Received number of calls: 1\n\n    1: \&quot;Warning: Each child in a list should have a unique \\\&quot;key\\\&quot; prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s\&quot;, \&quot;·\n    Check the render method of `ProjectsSection`.\&quot;, \&quot;\&quot;, \&quot;\n        at div\n\n      29 | // Write your code here\n      30 |\n    &gt; 31 | class ProjectsSection extends Component {\n         |                                         ^\n      32 |   stateValue = {dummy: 1}\n      33 |\n      34 |   onGetProjectsImages() {\n\n      at ProjectsSection (src/components/ProjectsSection/index.js:31:41)\n          at div\n          at div\n          at div\n      at Portfolio (src/components/Portfolio/index.js:35:35)\n          at App\&quot;\n      at Object.&lt;anonymous&gt; (src/__tests__/GlassPortfolioDesign.js:97:31)\n&quot;
+    }
+  ],
+  &quot;wasInterrupted&quot;: false
+}</div></body></html>

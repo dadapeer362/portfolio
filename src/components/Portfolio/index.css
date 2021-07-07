@@ -1,0 +1,113 @@
+/* Write your CSS here */
+@media all and (min-width: 768px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/portfolio-lg-bg.png');
+    background-size: cover;
+    height: 100vh;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/portfolio-lg-bg.png');
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    height: 90%;
+    margin-left: 80px;
+    width: 15%;
+  }
+
+  .home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/portfolio-lg-bg.png');
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    height: 65%;
+    margin-left: 40px;
+    margin-top: 18px;
+    width: 1000px;
+  }
+
+  .social-media-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/portfolio-lg-bg.png');
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    height: 19%;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 1000px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/portfolio-sm-bg.png');
+    background-size: cover;
+    height: 100vh;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/portfolio-sm-bg.png');
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    height: 90%;
+    width: 13%;
+  }
+
+  .home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/portfolio-sm-bg.png');
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    height: 65%;
+    margin-left: 40px;
+    margin-top: 18px;
+    width: 1000px;
+  }
+
+  .social-media-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/portfolio-lg-bg.png');
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    height: 19%;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 1000px;
+  }
+}
+
+.home-social-media-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-img-style {
+  border-radius: 100%;
+  width: 130px;
+  height: 130px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.light-show {
+  background-color: lightpink;
+  border-radius: 10px;
+  margin-right: 10px;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
+}
